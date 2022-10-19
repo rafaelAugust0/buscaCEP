@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #100720;
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: auto;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+}
+
+body div#app {
+    background: #fff;
+    border-radius: 0.4rem;
+    padding: 1.5rem 0rem;
+    box-shadow: 2px 8px 11px;
+    height: 250px;
+}
+
+body div#app form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 50px;
+}
+
+body div#app form input {
+    height: 50px;
+    width: 90%;
+    font-size: 30px;
+    text-align: center;
+    color: #100720;
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+}
+
+body div#app form button {
+    height: 50px;
+    width: 50%;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: #100720;
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+}

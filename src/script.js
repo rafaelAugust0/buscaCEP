@@ -6,4 +6,12 @@ submitButton.addEventListener('click', run)
 
 function run (event) {
     event.preventDefault()
+
+    var zipCode = zipCodeField.value
+
+    zipCode = zipCode.replace(' ', '')
+    zipCode = zipCode.replace('.', '')
+    zipCode = zipCode.trim()
+
+    console.log(zipCode)
 }

@@ -4,7 +4,7 @@
 Project built for fixing learned Javascript content, including styling, promises and API connection.
 
 You can check the deployment here: 
-  https://buscacep-2nyb2akd6-rafaelaugust0.vercel.app/
+  https://buscacep-one.vercel.app/
 
 ## API Reference
 

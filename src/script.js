@@ -15,10 +15,21 @@ function run (event) {
 
     axios.get('https://viacep.com.br/ws/'+zipCode+'/json/')
     .then(function(response) {
-        console.log(response.data)
+        content.innerHTML = ''
+        createLine(response.data.bairro)
+        createLine(response.data.localidade + '-' + response.data.uf)
     })
     .catch(function(error) {
         console.log(error)
     })
+}
 
+function createLine(text) {
+    var line = document.createElement('p')
+    var text= document.createTextNode(text)
+    line.style.paddingTop="10px"
+    line.style.textAlign="center"
+
+    line.appendChild(text)
+    content.appendChild(line)
 }

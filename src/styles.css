@@ -18,7 +18,6 @@ body {
 body div#app {
     background: #fff;
     border-radius: 0.4rem;
-    padding: 1.5rem 0rem;
     box-shadow: 2px 8px 11px;
     height: 250px;
 }
